@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-02",
+  "performed_by": "AI assistant preparing Jose Lehtimäki's portfolio",
+  "source_repository": "joselehti-sudo/Autojerry-Offer-Agent",
+  "source_visibility": "private",
+  "source_commit": "a70c78c90909130a324c2553a4be20d91ff510f2",
+  "runtime": "Node v24.22.1",
+  "command": "node --test --test-reporter=tap tests/offer-review.test.cjs tests/send-block.test.cjs",
+  "result": {
+    "exit_code": 0,
+    "tests": 45,
+    "passed": 45,
+    "failed": 0,
+    "skipped": 0
+  },
+  "scope": "Existing review unit tests and offline submit-block tests. Synthetic fixtures; stubbed browser adapter. Not a full application, language-model or live-service test.",
+  "files": [
+    {
+      "path": "lib/offer-review.cjs",
+      "git_blob_sha": "35838b776b25af7d0aae586e3d74b2970fb471e8",
+      "source_matches": true,
+      "sha256": "301b8696b3a85ae02cb7cb69dd166efbf53ddc0283b3ec00fcc5a1c91a7c0b60"
+    },
+    {
+      "path": "tests/fixtures/review.cjs",
+      "git_blob_sha": "ef5ea5e487ea05e2a976251f5c938b2cafbe3402",
+      "source_matches": true,
+      "sha256": "4a89323f4067a41386528b40141d0e5b424bf6de15ecfd8c4555d54bf2d442cc"
+    },
+    {
+      "path": "tests/offer-review.test.cjs",
+      "git_blob_sha": "7f3d290d26d617b7ce16f724a36125f82a2f7f50",
+      "source_matches": true,
+      "sha256": "049912380eeaf2bbe780e78315f6cbb276884e488654028332dde309c570f02b"
+    },
+    {
+      "path": "tests/send-block.test.cjs",
+      "git_blob_sha": "0daea28bf43b59a1e722eb1c1f685cb6502f2ee0",
+      "source_matches": true,
+      "sha256": "1e7c305d5b9a3bb110b901dfc7453b9e4be191845ccc1c3451daa96d1ba357c2"
+    },
+    {
+      "path": "automaatio/stophub-agent/lib/autojerry.js",
+      "git_blob_sha": "4ac66ace86f8165ce2e1db61692c836efefa2ee3",
+      "source_matches": true,
+      "sha256": "7e2f0c73e9ff488d5888681291ec2fde72c92eadda6e51823282c60d54cf7e9b"
+    },
+    {
+      "path": "automaatio/stophub-agent/bin/aj.js",
+      "git_blob_sha": "d437c4bc6bd034d73587039125dd58c290285045",
+      "source_matches": true,
+      "sha256": "4fffcf74354c06cb875599d897a0a5509a5166561b8c435e41edd206e5494f84"
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+TAP version 13
+# Subtest: valid synthetic review is accepted
+ok 1 - valid synthetic review is accepted
+  ---
+  duration_ms: 3.68618
+  type: 'test'
+  ...
+# Subtest: money must be exact integer cents
+ok 2 - money must be exact integer cents
+  ---
+  duration_ms: 1.525843
+  type: 'test'
+  ...
+# Subtest: negative prices rejected
+ok 3 - negative prices rejected
+  ---
+  duration_ms: 0.589046
+  type: 'test'
+  ...
+# Subtest: range ordering checked
+ok 4 - range ordering checked
+  ---
+  duration_ms: 4.383561
+  type: 'test'
+  ...
+# Subtest: calculated profit needs method, cost basis and source
+ok 5 - calculated profit needs method, cost basis and source
+  ---
+  duration_ms: 0.261627
+  type: 'test'
+  ...
+# Subtest: verified fact needs provenance
+ok 6 - verified fact needs provenance
+  ---
+  duration_ms: 5.578962
+  type: 'test'
+  ...
+# Subtest: owner assertion cannot be relabelled independent source verification
+ok 7 - owner assertion cannot be relabelled independent source verification
+  ---
+  duration_ms: 4.552849
+  type: 'test'
+  ...
+# Subtest: model-family match alone is not exact-variant confirmation
+ok 8 - model-family match alone is not exact-variant confirmation
+  ---
+  duration_ms: 2.745642
+  type: 'test'
+  ...
+# Subtest: two-fact correction preserves all price, wording, hours and extras
+ok 9 - two-fact correction preserves all price, wording, hours and extras
+  ---
+  duration_ms: 10.837567
+  type: 'test'
+  ...
+# Subtest: two-fact correction cannot also change price
+ok 10 - two-fact correction cannot also change price
+  ---
+  duration_ms: 1.678708
+  type: 'test'
+  ...
+# Subtest: stale base revision rejected
+ok 11 - stale base revision rejected
+  ---
+  duration_ms: 1.541817
+  type: 'test'
+  ...
+# Subtest: metadata cannot be changed through ordinary correction
+ok 12 - metadata cannot be changed through ordinary correction
+  ---
+  duration_ms: 0.931347
+  type: 'test'
+  ...
+# Subtest: unsafe JSON pointer rejected
+ok 13 - unsafe JSON pointer rejected
+  ---
+  duration_ms: 0.659037
+  type: 'test'
+  ...
+# Subtest: no-op correction does not create another revision
+ok 14 - no-op correction does not create another revision
+  ---
+  duration_ms: 3.495244
+  type: 'test'
+  ...
+# Subtest: initial unresolved technical facts block approval
+ok 15 - initial unresolved technical facts block approval
+  ---
+  duration_ms: 3.199513
+  type: 'test'
+  ...
+# Subtest: owner price acceptance with acknowledged unknown profitability is allowed
+ok 16 - owner price acceptance with acknowledged unknown profitability is allowed
+  ---
+  duration_ms: 2.728049
+  type: 'test'
+  ...
+# Subtest: unknown profit is not silently dismissed
+ok 17 - unknown profit is not silently dismissed
+  ---
+  duration_ms: 2.235159
+  type: 'test'
+  ...
+# Subtest: translation request is not an offer approval event
+ok 18 - translation request is not an offer approval event
+  ---
+  duration_ms: 2.066541
+  type: 'test'
+  ...
+# Subtest: offer approval must identify exact case and revision
+ok 19 - offer approval must identify exact case and revision
+  ---
+  duration_ms: 3.867398
+  type: 'test'
+  ...
+# Subtest: material changes make prior approval stale
+ok 20 - material changes make prior approval stale
+  ---
+  duration_ms: 9.136225
+  type: 'test'
+  ...
+# Subtest: Finnish finalization requires recorded approval
+ok 21 - Finnish finalization requires recorded approval
+  ---
+  duration_ms: 4.0112
+  type: 'test'
+  ...
+# Subtest: Finnish structural rendering preserves price and separate extras
+ok 22 - Finnish structural rendering preserves price and separate extras
+  ---
+  duration_ms: 80.047136
+  type: 'test'
+  ...
+# Subtest: an omitted translated block fails
+ok 23 - an omitted translated block fails
+  ---
+  duration_ms: 3.545163
+  type: 'test'
+  ...
+# Subtest: an extra translated block fails
+ok 24 - an extra translated block fails
+  ---
+  duration_ms: 1.955649
+  type: 'test'
+  ...
+# Subtest: new translated promise line fails line coverage
+ok 25 - new translated promise line fails line coverage
+  ---
+  duration_ms: 3.133099
+  type: 'test'
+  ...
+# Subtest: hours cannot change during translation
+ok 26 - hours cannot change during translation
+  ---
+  duration_ms: 2.723181
+  type: 'test'
+  ...
+# Subtest: translation cannot override structured price
+ok 27 - translation cannot override structured price
+  ---
+  duration_ms: 1.908727
+  type: 'test'
+  ...
+# Subtest: report is copied verbatim rather than retranslated from English
+ok 28 - report is copied verbatim rather than retranslated from English
+  ---
+  duration_ms: 3.934703
+  type: 'test'
+  ...
+# Subtest: modified report quotation fails
+ok 29 - modified report quotation fails
+  ---
+  duration_ms: 2.352938
+  type: 'test'
+  ...
+# Subtest: expired required evidence blocks later render
+ok 30 - expired required evidence blocks later render
+  ---
+  duration_ms: 1.511397
+  type: 'test'
+  ...
+# Subtest: direct conflict remains blocking even for a non-required fact
+ok 31 - direct conflict remains blocking even for a non-required fact
+  ---
+  duration_ms: 1.285199
+  type: 'test'
+  ...
+# Subtest: same-number semantic mistranslation is explicitly not proven by numeric checks
+ok 32 - same-number semantic mistranslation is explicitly not proven by numeric checks
+  ---
+  duration_ms: 2.611762
+  type: 'test'
+  ...
+# Subtest: English review includes full customer terms and separate internal notes
+ok 33 - English review includes full customer terms and separate internal notes
+  ---
+  duration_ms: 5.184389
+  type: 'test'
+  ...
+# Subtest: a correction is a candidate not an active rule
+ok 34 - a correction is a candidate not an active rule
+  ---
+  duration_ms: 0.273468
+  type: 'test'
+  ...
+# Subtest: a translation command does not become feedback
+ok 35 - a translation command does not become feedback
+  ---
+  duration_ms: 0.24437
+  type: 'test'
+  ...
+# Subtest: offer approval is not knowledge-change approval
+ok 36 - offer approval is not knowledge-change approval
+  ---
+  duration_ms: 0.635155
+  type: 'test'
+  ...
+# Subtest: case-specific correction cannot be auto-promoted
+ok 37 - case-specific correction cannot be auto-promoted
+  ---
+  duration_ms: 0.349848
+  type: 'test'
+  ...
+# Subtest: explicit general-rule authorization still does not claim tested or active knowledge
+ok 38 - explicit general-rule authorization still does not claim tested or active knowledge
+  ---
+  duration_ms: 0.516124
+  type: 'test'
+  ...
+# Subtest: scope cannot silently widen during rule authorization
+ok 39 - scope cannot silently widen during rule authorization
+  ---
+  duration_ms: 0.234613
+  type: 'test'
+  ...
+# Subtest: hash is stable under object key reorder
+ok 40 - hash is stable under object key reorder
+  ---
+  duration_ms: 0.463195
+  type: 'test'
+  ...
+# Subtest: unknown price stays unknown and blocks approval rather than inventing a number
+ok 41 - unknown price stays unknown and blocks approval rather than inventing a number
+  ---
+  duration_ms: 1.414374
+  type: 'test'
+  ...
+# Subtest: English colon time and Finnish dot time preserve the same values
+ok 42 - English colon time and Finnish dot time preserve the same values
+  ---
+  duration_ms: 2.561909
+  type: 'test'
+  ...
+# Subtest: direct submit rejects before touching a browser
+ok 43 - direct submit rejects before touching a browser
+  ---
+  duration_ms: 4.332165
+  type: 'test'
+  ...
+# Subtest: CLI submit is blocked without flags
+ok 44 - CLI submit is blocked without flags
+  ---
+  duration_ms: 3.095138
+  type: 'test'
+  ...
+# Subtest: CLI submit is blocked even with --confirm
+ok 45 - CLI submit is blocked even with --confirm
+  ---
+  duration_ms: 1.795474
+  type: 'test'
+  ...
+1..45
+# tests 45
+# suites 0
+# pass 45
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 435.971681

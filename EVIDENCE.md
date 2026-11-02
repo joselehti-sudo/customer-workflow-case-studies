@@ -1,35 +1,29 @@
-# Verification notes
+# Evidence index
 
-Prepared on **2 November 2026**. This page summarises selected records from the private application repository. Public readers can inspect the screenshots and this explanation; the underlying code, reviews and CI logs are not publicly accessible.
+[Portfolio](README.md)
 
-## Source versions
+Evidence was reviewed on **2 November 2026**. This is a curated portfolio, not an independent product certification.
 
-| Record | Reference |
-| --- | --- |
-| Requirement | Issue #1394: show this visit's odometer in invoice review |
-| Implementation | PR #1454 |
-| Reviewed PR version | `619a1c3094038242ebd6b2c3b12ee5f54f147fee` |
-| Merge | `237c1b6a6b5b883704c1cb56773dcd3fedb8760c`, 27 October 2026 |
-| Main branch inspected for this case study | `7c5066f7953a10a4ec73397f903d66b27b8d32a5`, 2 November 2026 |
-| Recorded GitHub Actions run | `40568391954`, 27 October 2026 |
-
-## What the evidence supports
-
-**Implementation and test definitions inspected on 2 November.** The current invoice preview conditionally displays the prepared visit reading for invoices. It distinguishes zero from an absent value and uses the document's publication language. The component tests cover Finnish and English formatting, zero, null and absent readings, no substitution of an older value, and the unchanged work-report view.
-
-**Recorded focused checks on 27 October.** The implementation report and separate AI review report record 32 passing tests across the preview, invoice PDF and odometer API test files, plus four passing focused browser runs. The browser test checks both document languages, 1440 px and 390 px layouts, the issued invoice's stored value and text extracted from the downloaded PDF.
-
-**CI result read from GitHub on 2 November.** All 18 jobs returned for the recorded run completed successfully. They include format, lint, type checking, Docker, test inventory, four unit/integration test shards, eight browser-test shards and the aggregate test job. This confirms the recorded delivery run; it is not a new test run of the current main branch.
-
-**Visual evidence.** The two published images are the existing before/after screenshots from the local synthetic-data test run. They show the same example visit reading, language and layout. They are not screenshots of real customer data or of a live workshop session.
+| Case | Inspected in this portfolio work | Recorded earlier | Not established |
+|---|---|---|---|
+| [Extra-work approval](evidence/extra-work.md) | Merge metadata, current deletion rule and revision fields, latest CI attempt, synthetic screenshots | Browser/API tests, failure reproduction, separate AI reviews and fixes | Live usability, business impact, completion of the wider programme |
+| [Human-reviewed offers](evidence/offer-workflow.md) | Pinned source, 45 existing offline tests, matching file identities, raw test output | Earlier local CLI and synthetic client handover reports | Real operator acceptance, model/translation accuracy, live sending or production readiness |
+| [Invoice review](evidence/invoice-review.md) | Current display logic and tests, merge and CI records, synthetic screenshots | Component/API/browser checks and PDF comparison | Fewer invoice corrections or time saved in live use |
 
 ## Attribution
 
-The original gap was raised during an earlier AI-assisted review. Jose defined and approved the bounded user outcome and authorised delivery. AI agents performed implementation, technical testing and a separate review session. Multiple agent sessions used the project owner's GitHub account; this should not be read as a team of separate human developers or reviewers.
+Jose sets and approves product goals and directs AI-assisted work. Coding and technical testing in these cases were performed largely by AI agents. A separate AI review means a separate review session, not a second human engineer or an external certification.
 
-## Limits
+The new offer test run was performed by the AI assistant preparing this portfolio. Historical tests are labelled as records rather than claimed as newly run.
 
-- Tests were not rerun to prepare this public write-up.
-- No measured reduction in errors, processing time or support work is claimed.
-- These records do not establish deployment verification or validation with real workshop users.
-- This case concerns one invoice-review change, not the production readiness of the whole application.
+Private source references identify the original records for an authorised reviewer. They will not open for a public reader. Screenshots, written summaries, the offer test output and its manifest are public; this is not enough to independently reproduce the whole private application.
+
+## Publication scope
+
+Screenshots were inspected and contain synthetic test data. Real customer cases, contact details, credentials, raw operator conversations, supplier pricing and application source code are not part of this publication.
+
+## Why this structure
+
+Each case separates the problem, my role, product decisions, implementation evidence and remaining outcome questions. Atlassian's public [product interview handbook](https://www.atlassian.com/company/careers/resources/career-growth/product-managers) similarly asks candidates to explain customer focus, prioritisation, outcomes and clear communication. This is one employer's published framework, not a universal hiring standard or an endorsement.
+
+[Next validation steps](VALIDATION-PLAN.md)
