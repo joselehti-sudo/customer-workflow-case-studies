@@ -1,8 +1,8 @@
 # Customer workflows, product decisions and AI-assisted delivery
 
-**Jose Lehtimäki** · B2B software for independent car repair shops
+**Jose Lehtimäki** · Customer work, practical software and AI-assisted projects
 
-I work with customers and build software with AI agents. These case studies show how a workshop problem becomes a specific product decision, an implementation and something we can check.
+I work with customers and build software with AI agents. These case studies show how a practical problem becomes a product decision, an implementation and something we can check.
 
 My contribution is understanding the work, setting the goal, deciding scope and reviewing the user outcome. AI coding agents do much of the implementation and technical testing. Each case makes that division clear.
 
@@ -29,6 +29,18 @@ An English-speaking operator needs to check the whole offer before a Finnish cus
 A smaller example: expose the current visit's reading at the point where office staff review the invoice.
 
 **Read for:** a narrowly scoped improvement and consistency between review and the issued document.
+
+## Questions I am working through
+
+These two notes show work that is still developing. Each follows one question through the available evidence and explains the next check.
+
+### [Vire: when the training plan does not fit everyday life](cases/vire-program-fit.md)
+
+A coaching app can notice repeated time pressure. But what should that signal mean when the app itself shortened the session? The note explains the distinction the coach needs to make, my product role and the decision still open.
+
+### [AI work: keeping recommendations separate from decisions](cases/ai-recommendation-boundaries.md)
+
+A small recorded evaluation raised a question about how a suggested sequence can read like an agreed plan. I explain the observation, the wording change and why a comparison is still needed before calling it an improvement.
 
 ## Evidence and next steps
 

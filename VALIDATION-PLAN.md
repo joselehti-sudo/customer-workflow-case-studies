@@ -4,7 +4,7 @@
 
 **Proposed next work, not completed research.** No users have been recruited and no measurements below have been collected for this portfolio.
 
-The cases already have implementation evidence. The next uncertainty is whether the intended users can complete the work correctly and whether the workflow earns its place in their day.
+The workshop and offer cases already have implementation evidence. The next uncertainty is whether the intended users can complete the work correctly and whether the workflow earns its place in their day.
 
 ## 1. Office workflow: moderated task check
 

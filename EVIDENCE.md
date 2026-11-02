@@ -9,6 +9,8 @@ Evidence was reviewed on **2 November 2026**. This is a curated portfolio, not a
 | [Extra-work approval](evidence/extra-work.md) | Merge metadata, current deletion rule and revision fields, latest CI attempt, synthetic screenshots | Browser/API tests, failure reproduction, separate AI reviews and fixes | Live usability, business impact, completion of the wider programme |
 | [Human-reviewed offers](evidence/offer-workflow.md) | Pinned source, 45 existing offline tests, matching file identities, raw test output | Earlier local CLI and synthetic client handover reports | Real operator acceptance, model/translation accuracy, live sending or production readiness |
 | [Invoice review](evidence/invoice-review.md) | Current display logic and tests, merge and CI records, synthetic screenshots | Component/API/browser checks and PDF comparison | Fewer invoice corrections or time saved in live use |
+| [Vire: programme fit](cases/vire-program-fit.md) | Pinned decision record, signal and workout code, three existing test cases and the delivery record | First implementation and a deferred product question about the signal | Reproduced end-to-end defect, coach interpretation, retention or training outcomes; tests were not rerun |
+| [AI recommendations and decisions](cases/ai-recommendation-boundaries.md) | Pinned run summary, acceptance record, revised wording and pending-retest ledger | Five AI-run and AI-graded scenarios in one recorded model class | Effectiveness of the wording change, independent transcript verification or general model reliability |
 
 ## Attribution
 
